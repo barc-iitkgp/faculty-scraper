@@ -6,8 +6,9 @@ SUPPORTED COLLEGES
 ------------------
 
 <table>
-<tr> <th> # </th> <th> College name </th> <th> # of professors </th> </tr>
-<tr> <td> (1) </td> <td> Massachusetts Institute of Technology (MIT) </td> <td> 165 </td> </tr>
+<tr> <th> # </th> <th> College name </th> <th> Number of contacts </th> </tr>
+<tr> <td> (1) </td> <td> Massachusetts Institute of Technology </td> <td> 165 </td> </tr>
+<tr> <td> (2) </td> <td> Stanford University </td> <td> 114 </td> </tr>
 </table>
 
 
