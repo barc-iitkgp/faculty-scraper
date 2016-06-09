@@ -6,7 +6,8 @@ SUPPORTED COLLEGES
 ------------------
 
 <table>
-<tr> <td> (1) </td> <td> Massachusetts Institute of Technology (MIT) </td> </tr>
+<tr> <th> # </th> <th> College name </th> <th> # of professors </th> </tr>
+<tr> <td> (1) </td> <td> Massachusetts Institute of Technology (MIT) </td> <td> 165 </td> </tr>
 </table>
 
 
