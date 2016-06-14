@@ -2,7 +2,7 @@ DESCRIPTION
 -----------
 This tool will scrape through faculty details of various colleges & store them in .csv format in the data/ folder.
 
-SUPPORTED COLLEGES
+SUPPORTED COLLEGES [![forthebadge]https://api.travis-ci.org/barc-iitkgp/faculty-scraper.svg](https://travis-ci.org/barc-iitkgp/faculty-scraper)
 ------------------
 
 <table>
