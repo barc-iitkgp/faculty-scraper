@@ -1,0 +1,4 @@
+language: ruby
+rvm:
+  - 2.3.1p112
+bundle install --jobs=3 --retry=3

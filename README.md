@@ -14,6 +14,6 @@ SUPPORTED COLLEGES
 
 USING THE TOOL
 --------------
-<pre> git clone git@github.com:athityakumar/faculty-scraper.git </pre>
+<pre> git clone git@github.com:barc-iitkgp/faculty-scraper.git </pre>
 <pre> cd faculty-scraper/scripts </pre> 
 <pre> ruby college_name.rb </pre>
