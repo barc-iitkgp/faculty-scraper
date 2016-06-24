@@ -18,3 +18,7 @@ USING THE TOOL
 <pre> git clone git@github.com:barc-iitkgp/faculty-scraper.git </pre>
 <pre> cd faculty-scraper/scripts </pre> 
 <pre> ruby college_name.rb </pre>
+
+LICENSE
+-------
+Licensed under GNU General Public License v3.0 (GPLv3).
