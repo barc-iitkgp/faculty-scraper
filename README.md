@@ -9,6 +9,7 @@ SUPPORTED COLLEGES <img src="https://api.travis-ci.org/barc-iitkgp/faculty-scrap
 <tr> <th> # </th> <th> College name </th> <th> Number of contacts </th> </tr>
 <tr> <td> (1) </td> <td> Massachusetts Institute of Technology </td> <td> 165 </td> </tr>
 <tr> <td> (2) </td> <td> Stanford University </td> <td> 114 </td> </tr>
+<tr> <td> (3) </td> <td> Harvard University </td> <td> 101 </td> </tr>
 </table>
 
 
