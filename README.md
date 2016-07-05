@@ -14,16 +14,16 @@ SUPPORTED COLLEGES <img src="https://api.travis-ci.org/barc-iitkgp/faculty-scrap
 </table>
 
 <table>
-<tr> <th> Total # of universities </th> <th> 4 </th> </tr>
-<tr> <th> Total # of contacts</th> <th> 613 </th> </tr>
+<tr> <td> Total # of universities </td> <td> 4 </td> </tr>
+<tr> <td> Total # of contacts</td> <td> 613 </td> </tr>
 </table>
 
 
 USING THE TOOL
 --------------
-<pre> git clone git@github.com:barc-iitkgp/faculty-scraper.git </pre>
-<pre> cd faculty-scraper/scripts </pre> 
-<pre> ruby college_name.rb </pre>
+` git clone git@github.com:barc-iitkgp/faculty-scraper.git `
+` cd faculty-scraper/scripts ` 
+` ruby college_name.rb `
 
 LICENSE
 -------
