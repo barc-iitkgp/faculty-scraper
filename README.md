@@ -12,7 +12,7 @@ SUPPORTED COLLEGES
 <tr> <td> (3) </td> <td> Harvard University </td> <td> 101 </td> </tr>
 <tr> <td> (4) </td> <td> Oxford University </td> <td> 233 </td> </tr>
 <tr> <td> (5) </td> <td> Georgia University </td> <td> 142 </td> </tr>
-<tr> <th> Total number of contacts </th> <th> 755 </th> </tr>
+<tr> <th> # </th> <th> Total number of contacts </th> <th> 755 </th> </tr>
 </table>
 
 
