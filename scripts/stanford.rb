@@ -1,15 +1,8 @@
-require 'csv'
-require 'mechanize'
-
-bot = Mechanize.new
-bot.follow_meta_refresh = true 
-bot.verify_mode = OpenSSL::SSL::VERIFY_NONE
+require_relative 'include/bot'
+bot , filename = mechanize_bot($0)
+csv_write(filename,"NAME","EMAIL ID","PHONE NUMBER","PROFILE LINK")
 
 page = bot.get("https://ed.stanford.edu/faculty/profiles")
-CSV.open("../data/stanford.csv", "a") do |csv|
-  csv << ["NAME","EMAIL ID","PHONE NUMBER","PROFILE LINK"]
-end
-
 num =  page.search(".field-content .well").count
 for i in (0..num-1)
   var = page.search(".field-content .well")[i].children.children.children.children
@@ -20,8 +13,6 @@ for i in (0..num-1)
   if phone == "Email"
     phone = ""
   end
-  CSV.open("../data/stanford.csv", "a") do |csv|
-    csv << [name,email,phone,link]
-  end
+  csv_write(filename,name,email,phone,link)
   puts (i+1).to_s + "/" + num.to_s + " completed" 
 end

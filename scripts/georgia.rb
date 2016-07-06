@@ -1,15 +1,8 @@
-require 'csv'
-require 'mechanize'
-
-bot = Mechanize.new
-bot.follow_meta_refresh = true 
-bot.verify_mode = OpenSSL::SSL::VERIFY_NONE
+require_relative 'include/bot'
+bot , filename = mechanize_bot($0)
+csv_write(filename,"NAME","MAIL ID","PAGE","WORK")
 
 page = bot.get("https://www.ece.gatech.edu/faculty-staff-directory?field_group_filter_value=1")
-CSV.open("../data/georgia.csv", "a") do |csv|
-  csv << ["NAME","MAIL ID","PAGE","WORK"]
-end
-
 num =  page.search(".faculty-staff-information").count 
 for i in (0..num-1)
   name = page.search(".faculty-staff-information .field-full-name")[i].text.strip
@@ -17,8 +10,6 @@ for i in (0..num-1)
   work = page.search(".faculty-staff-information .field-jobtitle")[i].text.strip
   link = page.search(".faculty-staff-information .field-full-name a")[i]["href"]
   link = "https://www.ece.gatech.edu" + link
-  CSV.open("../data/georgia.csv", "a") do |csv|
-    csv << [name,email,link,work]
-  end
+  csv_write(filename,name,email,link,work)
   puts (i+1).to_s + "/" + num.to_s + " completed" 
 end

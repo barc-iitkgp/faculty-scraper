@@ -1,15 +1,8 @@
-require 'csv'
-require 'mechanize'
-
-bot = Mechanize.new
-bot.follow_meta_refresh = true 
-bot.verify_mode = OpenSSL::SSL::VERIFY_NONE
+require_relative 'include/bot'
+bot , filename = mechanize_bot($0)
+csv_write(filename,"NAME","MAIL ID","PAGE","WORK")
 
 page = bot.get("http://www.history.ox.ac.uk/faculty/staff/a-z.html")
-CSV.open("../data/oxford.csv", "a") do |csv|
-  csv << ["NAME","MAIL ID","PAGE","WORK"]
-end
-
 num =  page.search("tr").count 
 for i in (1..num-1)
   var = page.search("tr")[i].children.children
@@ -19,8 +12,6 @@ for i in (1..num-1)
   work = work.gsub(";",",")
   link = (var[1]["href"].nil?) ? var[2]["href"] : var[1]["href"]  
   link = "http://www.history.ox.ac.uk/" + link
-  CSV.open("../data/oxford.csv", "a") do |csv|
-    csv << [name,email,link,work]
-  end
+  csv_write(filename,name,email,link,work)
   puts (i+1).to_s + "/" + num.to_s + " completed" 
 end
