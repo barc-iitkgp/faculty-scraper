@@ -15,7 +15,8 @@ SUPPORTED COLLEGES
 <tr> <td> (6) </td> <td> École Polytechnique Federale De Lausanne </td> <td> 145 </td> </tr>
 <tr> <td> (7) </td> <td> Delft University of Technology </td> <td> 485 </td> </tr>
 <tr> <td> (8) </td> <td> Peking University </td> <td> 111 </td> </tr>
-<tr> <th> # </th> <th> Total number of contacts </th> <th> 1496 </th> </tr>
+<tr> <td> (9) </td> <td> Berkeley University </td> <td> 125 </td> </tr>
+<tr> <th> # </th> <th> Total number of contacts </th> <th> 1621 </th> </tr>
 </table>
 
 
