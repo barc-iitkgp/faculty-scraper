@@ -7,7 +7,7 @@ def mechanize_bot filename
   bot.follow_meta_refresh = true 
   bot.verify_mode = OpenSSL::SSL::VERIFY_NONE
 
-  filename = "../../faculty-scraper-data/"+filename.gsub(".rb",".csv") 
+  filename = "../data/"+filename.gsub(".rb",".csv") 
   File.delete(filename) if File.exists? filename
 
   to_return = []
