@@ -21,7 +21,8 @@ SUPPORTED COLLEGES
 <tr> <td> (10) </td> <td> Melbourne University </td> <td> 168 </td> </tr>
 <tr> <td> (11) </td> <td> Cambridge University </td> <td> 1420 </td> </tr>
 <tr> <td> (12) </td> <td> ETH Zurich University </td> <td> 626 </td> </tr>
-<tr> <th> # </th> <th> Total number of contacts </th> <th> 3835 </th> </tr>
+<tr> <td> (13) </td> <td> UIUC </td> <td> 106 </td> </tr>
+<tr> <th> # </th> <th> Total number of contacts </th> <th> 3941 </th> </tr>
 </table>
 
 
