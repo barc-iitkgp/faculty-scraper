@@ -22,7 +22,8 @@ SUPPORTED COLLEGES
 <tr> <td> (11) </td> <td> Cambridge University </td> <td> 1420 </td> </tr>
 <tr> <td> (12) </td> <td> ETH Zurich University </td> <td> 626 </td> </tr>
 <tr> <td> (13) </td> <td> UIUC </td> <td> 106 </td> </tr>
-<tr> <th> # </th> <th> Total number of contacts </th> <th> 3941 </th> </tr>
+<tr> <td> (14) </td> <td> UCLA </td> <td> 79 </td> </tr>
+<tr> <th> # </th> <th> Total number of contacts </th> <th> 4020 </th> </tr>
 </table>
 
 
