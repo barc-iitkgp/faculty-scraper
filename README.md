@@ -23,7 +23,8 @@ SUPPORTED COLLEGES
 <tr> <td> (12) </td> <td> Stanford University </td> <td> 114 </td> </tr>
 <tr> <td> (13) </td> <td> University of Illinois at Urbana–Champaign </td> <td> 106 </td> </tr>
 <tr> <td> (14) </td> <td> University of California,Los Angeles </td> <td> 79 </td> </tr>
-<tr> <th> # </th> <th> Total number of contacts </th> <th> 4020 </th> </tr>
+<tr> <td> (15) </td> <td> Yale University </td> <td> 23 </td> </tr>
+<tr> <th> # </th> <th> Total number of contacts </th> <th> 4043 </th> </tr>
 </table>
 
 
