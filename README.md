@@ -21,10 +21,11 @@ SUPPORTED COLLEGES
 <tr> <td> (10) </td> <td> Oxford University </td> <td> 233 </td> </tr>
 <tr> <td> (11) </td> <td> Peking  University </td> <td> 111 </td> </tr>
 <tr> <td> (12) </td> <td> Stanford University </td> <td> 114 </td> </tr>
-<tr> <td> (13) </td> <td> University of Illinois at Urbana–Champaign </td> <td> 106 </td> </tr>
+<tr> <td> (13) </td> <td> University of California, Santa Barbara </td> <td> 41 </td> </tr>
 <tr> <td> (14) </td> <td> University of California,Los Angeles </td> <td> 79 </td> </tr>
-<tr> <td> (15) </td> <td> Yale University </td> <td> 23 </td> </tr>
-<tr> <th> # </th> <th> Total number of contacts </th> <th> 4043 </th> </tr>
+<tr> <td> (15) </td> <td> University of Illinois at Urbana–Champaign </td> <td> 106 </td> </tr>
+<tr> <td> (16) </td> <td> Yale University </td> <td> 23 </td> </tr>
+<tr> <th> # </th> <th> Total number of contacts </th> <th> 4084 </th> </tr>
 </table>
 
 
